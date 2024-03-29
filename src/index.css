@@ -33,3 +33,18 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+/* page previews / list */
+.page-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.page-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.page-preview h2 {
+  font-size: 20px;
+  color: #E37D1F;
+  margin-bottom: 8px;
+}
