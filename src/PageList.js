@@ -1,4 +1,4 @@
-const PageList = ({ pages, title, handleTest }) => {
+const PageList = ({ pages, title }) => {
 // const pages = props.pages;
 // const title = props.title;
 
@@ -9,7 +9,6 @@ const PageList = ({ pages, title, handleTest }) => {
         <div className="page-preview" key={page.id}>
           <h2>{ page.title }</h2>
           <p>Preview: { page.body } </p>
-          <button onClick={() => handleTest(page.id)}>Test Button</button>
         </div>
       ))}
     </div>

@@ -1,27 +1,16 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import PageList from './PageList';
+import useFetch from './useFetch';
 
 const Home = () => {
-  const [pages, setPages] = useState([
-    { title: 'Books Page', body: 'Test', id: 1 },
-    { title: 'About Me Page', body: 'Test', id: 2 }
-  ]);
-
   const [name, setName] = useState(1);
-
-  const handleTest = (id) => {
-    const newPages = pages.filter(page => page.id !== id);
-    setPages(newPages);
-  }
-
-  useEffect(() => {
-    console.log('use effect ran');
-    console.log(name);
-  }, [name]);
+  const {data: pages, isPending, error } = useFetch('http://localhost:8000/books');
 
   return (
     <div className="home">
-      <PageList pages={pages} title="All Pages" handleTest={handleTest} />
+      { error && <div>{ error }</div> }
+      { isPending && <div>Loading...</div>}
+      {pages && <PageList pages={pages} title="All Pages" />}
       <button onClick={()=> setName(2)}>Change ID</button>
       <p>{ name }</p>
     </div>
