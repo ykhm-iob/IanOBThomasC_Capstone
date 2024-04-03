@@ -3,7 +3,7 @@
 /* base styles */
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Roboto";
   color: #333;
 }
 .navbar {
@@ -33,3 +33,79 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+/* page previews / list */
+.page-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.page-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.page-preview h2 {
+  font-size: 20px;
+  color: #E37D1F;
+  margin-bottom: 8px;
+}
+.page-preview a{
+  text-decoration: none;
+}
+
+/* book details page */
+.book-info h2 {
+  font-size: 20px;
+  color: #E37D1F;
+  margin-bottom: 10px;
+}
+.book-info div {
+  margin: 20px 0;
+}
+.book-info button {
+  background: #E37D1F;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* contact form */
+.contact {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact label {
+  text-align: left;
+  display: block;
+}
+.contact h2 {
+  font-size: 20px;
+  color: #353025;
+  margin-bottom: 30px;
+}
+.contact input, .contact textarea, .contact select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.contact button {
+  background: #FFE4BB;
+  color: #B87323;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* 404 Page */
+.DoesNotExist h2 {
+  font-size: 20px;
+  color: #353025;
+  margin-bottom: 30px;
+}
+

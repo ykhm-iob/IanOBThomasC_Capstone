@@ -1,0 +1,18 @@
+{
+  "books":[
+    {
+      "title":"Abe",
+      "body":"Sample body. Nothing important1.",
+      "author":"Ed Steers Jr.",
+      "format":"Paperback",
+      "id":1
+    },
+    {
+      "title":"Also Abe",
+      "body":"Sample body. Nothing important2.",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "id":2
+    }
+  ]
+}
