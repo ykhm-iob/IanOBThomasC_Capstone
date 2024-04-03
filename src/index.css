@@ -3,7 +3,7 @@
 /* base styles */
 * {
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "Roboto";
   color: #333;
 }
 .navbar {
@@ -82,7 +82,7 @@
 }
 .contact h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #353025;
   margin-bottom: 30px;
 }
 .contact input, .contact textarea, .contact select {
@@ -94,10 +94,18 @@
   display: block;
 }
 .contact button {
-  background: #f1356d;
-  color: #fff;
+  background: #FFE4BB;
+  color: #B87323;
   border: 0;
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* 404 Page */
+.DoesNotExist h2 {
+  font-size: 20px;
+  color: #353025;
+  margin-bottom: 30px;
+}
+

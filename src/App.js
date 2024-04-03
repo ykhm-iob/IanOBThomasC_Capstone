@@ -6,6 +6,9 @@ import Books from './Books';
 import About from './About';
 import BookInfo from './BookInfo';
 import DoesNotExist from './DoesNotExist';
+import Biography from './Bio';
+import Appearances from './Appearances';
+import Contact from './Contact';
 
 function App() {
   
@@ -19,9 +22,9 @@ function App() {
           <Route exact path="/books" element={<Books />}></Route>
           <Route exact path="/books/:id" element={<BookInfo />}></Route>
           <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/about/biography" element={<About />}></Route>
-          <Route exact path="/about/appearances" element={<About />}></Route>
-          <Route exact path="/about/contact" element={<About />}></Route>
+          <Route exact path="/about/biography" element={<Biography />}></Route>
+          <Route exact path="/about/appearances" element={<Appearances />}></Route>
+          <Route exact path="/about/contact" element={<Contact />}></Route>
           <Route path="*" element={<DoesNotExist />}></Route>
         </Routes>
       </div>

@@ -1,7 +1,7 @@
-const appearances = () => {
+const Appearances = () => {
   return ( 
     <h2>Test Appearances</h2>
    );
 }
  
-export default appearances;
+export default Appearances;
