@@ -48,3 +48,56 @@
   color: #E37D1F;
   margin-bottom: 8px;
 }
+.page-preview a{
+  text-decoration: none;
+}
+
+/* book details page */
+.book-info h2 {
+  font-size: 20px;
+  color: #E37D1F;
+  margin-bottom: 10px;
+}
+.book-info div {
+  margin: 20px 0;
+}
+.book-info button {
+  background: #E37D1F;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* contact form */
+.contact {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact label {
+  text-align: left;
+  display: block;
+}
+.contact h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.contact input, .contact textarea, .contact select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.contact button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
