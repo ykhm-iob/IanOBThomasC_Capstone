@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Books from './Books';
 import About from './About';
 import BookInfo from './BookInfo';
+import DoesNotExist from './DoesNotExist';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/about/biography" element={<About />}></Route>
           <Route exact path="/about/appearances" element={<About />}></Route>
           <Route exact path="/about/contact" element={<About />}></Route>
+          <Route path="*" element={<DoesNotExist />}></Route>
         </Routes>
       </div>
     </div>
