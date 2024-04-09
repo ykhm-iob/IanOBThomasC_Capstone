@@ -14,9 +14,9 @@ const Home = () => {
       { isPending && <div>Loading...</div>}
       <div>
         <img src={author_headshot} alt="Headshot of Portfolio Owner, Ed Steers Jr." />
-        <h2>Ed Steers Jr.</h2>
-        <p>A renown author in Americna history, including Abraham Lincoln, John Wilkes Booth, and World War II</p>
-        <button><Link to ="/about">More About Me!</Link></button>
+        <h2 class="text-titleColor">Ed Steers Jr.</h2>
+        <p class="text-subtitleColor">A renown author in American history, including Abraham Lincoln, John Wilkes Booth, and World War II</p>
+        <button class="text-borderColor"><Link to ="/about">More About Me!</Link></button>
       </div>
       <div>
         <h2>Latest Release</h2>
