@@ -13,7 +13,7 @@ module.exports = {
         backgroundColor: '#FFFFFF',
         backdropColor: '#FFF3E0',
         borderColor: '#B87323',
-        buttonColor: 'FFE4BB',
+        buttonColor: '#FFE4BB',
       },
       fontFamily: {
         RobotoFont: ['Roboto']

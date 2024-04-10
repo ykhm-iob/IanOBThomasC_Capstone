@@ -14,19 +14,21 @@ function App() {
   
   return (
     <Router>
-    <div className="App">
-      <Navbar />
-      <div className="content">
-        <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/books" element={<Books />}></Route>
-          <Route exact path="/books/:id" element={<BookInfo />}></Route>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/about/biography" element={<Biography />}></Route>
-          <Route exact path="/about/appearances" element={<Appearances />}></Route>
-          <Route exact path="/about/contact" element={<Contact />}></Route>
-          <Route path="*" element={<DoesNotExist />}></Route>
-        </Routes>
+    <div className="font-RobotoFont bg-cover bg-backdropColor m-4">
+      <div className="">
+        <Navbar />
+        <div className="content">
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/books" element={<Books />}></Route>
+            <Route exact path="/books/:id" element={<BookInfo />}></Route>
+            <Route exact path="/about" element={<About />}></Route>
+            <Route exact path="/about/biography" element={<Biography />}></Route>
+            <Route exact path="/about/appearances" element={<Appearances />}></Route>
+            <Route exact path="/about/contact" element={<Contact />}></Route>
+            <Route path="*" element={<DoesNotExist />}></Route>
+          </Routes>
+        </div>
       </div>
     </div>
     </Router>
