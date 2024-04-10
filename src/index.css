@@ -1,111 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* base styles */
-* {
-  margin: 0;
-  font-family: "Roboto";
-  color: #333;
-}
-.navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-}
-.navbar h1 {
-  color: #E37D1F;
-}
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-}
-.navbar a:hover {
-  color: #E37D1F;
-}
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+  @apply text-borderColor font-medium mt-7 rounded-md text-xl px-9 py-3 bg-buttonColor border-2 border-borderColor;
 }
 
-/* page previews / list */
-.page-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
-}
-.page-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-}
-.page-preview h2 {
-  font-size: 20px;
-  color: #E37D1F;
-  margin-bottom: 8px;
-}
-.page-preview a{
-  text-decoration: none;
+.book-cover {
+  @apply font-medium;
 }
 
-/* book details page */
-.book-info h2 {
-  font-size: 20px;
-  color: #E37D1F;
-  margin-bottom: 10px;
-}
-.book-info div {
-  margin: 20px 0;
-}
-.book-info button {
-  background: #E37D1F;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
+.year-badge {
+  @apply font-medium;
 }
 
-/* contact form */
-.contact {
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
+.about-text {
+  @apply font-medium;
 }
-.contact label {
-  text-align: left;
-  display: block;
-}
-.contact h2 {
-  font-size: 20px;
-  color: #353025;
-  margin-bottom: 30px;
-}
-.contact input, .contact textarea, .contact select {
-  width: 100%;
-  padding: 6px 10px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  display: block;
-}
-.contact button {
-  background: #FFE4BB;
-  color: #B87323;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-/* 404 Page */
-.DoesNotExist h2 {
-  font-size: 20px;
-  color: #353025;
-  margin-bottom: 30px;
-}
-
