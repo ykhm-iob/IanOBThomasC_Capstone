@@ -1,0 +1,27 @@
+Home:
+Margin for text
+Max width for images?
+Truncate recent release synopsis text
+
+Books:
+Back-end implementation. Loop to go through catalog.
+Subpages need to be implemented.
+
+
+About:
+Sub-pages need more fluff...? Pull from Ed Steers site maybe. They aren't reaching 1080px length atm.
+
+
+All:
+Modal page(s)
+JS Buttons
+Navbar fix
+Line spacing
+Back-end implementation
+Font colors? possibly.
+Mobile navbar
+Animations (transitions)
+
+Other:
+Clean up git repo
+Fix up read-me.md

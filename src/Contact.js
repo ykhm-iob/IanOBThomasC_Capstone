@@ -11,23 +11,23 @@ const Contact = () => {
   }
 
   return ( 
-    <div className="contact">
-      <h2>Send Me a Message!</h2>
+    <div className="max-w-96 m-auto text-center mt-40">
+      <h2 className="mb-8 text-xl text-titleColor">Send Me a Message!</h2>
       <form onSubmit={handleSubmit}>
-        <label>Email:</label>
-        <input 
+        <label className="text-left block">Email:</label>
+        <input className="w-full pt-1.5 pr-2.5 mt-2.5 border box-border block border-borderColor" 
           type="text"
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <label>Message:</label>
-        <textarea
+        <label className="text-left block">Message:</label>
+        <textarea className="w-full pt-1.5 pr-2.5 mt-2.5 border box-border block border-borderColor"
           required
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
-        <button>
+        <button className="button">
           Submit
         </button>
       </form>
