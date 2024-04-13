@@ -23,8 +23,8 @@ const About = () => {
       </div>
       <div>
         <h2 className="text-titleColor text-3xl font-medium lg:text-5xl">Contact Info</h2>
-        <p className="text-paragraphColor text-sm lg:text-lg">Send me a message for collaborations, to give feedback on my work, or just to reach out!</p>
-        <button className="button mb-4"><Link to="/about/Contact">Contact Me</Link></button>
+        <p className="text-paragraphColor text-sm lg:text-lg">Send me an email at: ed@edsteers.com</p>
+        {/* <button className="button mb-4"><Link to="/about/Contact">Contact Me</Link></button> */}
       </div>
     </div>
    );

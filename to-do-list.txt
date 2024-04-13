@@ -1,7 +1,5 @@
 Home:
 Margin for text
-Max width for images?
-Truncate recent release synopsis text
 
 Books:
 Back-end implementation. Loop to go through catalog.
