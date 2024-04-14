@@ -1,18 +1,172 @@
 {
   "books":[
     {
-      "title":"Abe",
-      "body":"Sample body. Nothing important1.",
+      "title":"Blood on The Moon: The Assassination of Abraham Lincoln",
+      "body":"",
       "author":"Ed Steers Jr.",
       "format":"Paperback",
+      "cover": "id-00.jpg",
       "id":1
     },
     {
-      "title":"Also Abe",
-      "body":"Sample body. Nothing important2.",
+      "title":"The Trial: The Assassination of President Lincoln and the Trial of the Conspirators",
+      "body":"",
       "author":"Ed Steers Jr.",
       "format": "Kindle",
+      "cover": "id-01.jpg",
       "id":2
+    },
+    {
+      "title":"HOAX",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-02.jpg",
+      "id":3
+    },
+    {
+      "title":"Getting Right With Lincoln: Correcting Minsconceptions About Our Greatest President",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-03.jpg",
+      "id":4
+    },
+    {
+      "title":"The Escape and Capture of John Wilkes Booth",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-04.jpg",
+      "id":5
+    },
+    {
+      "title":"The Lincoln Assassination Conspirators",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-05.jpg",
+      "id":6
+    },
+    {
+      "title":"Lincoln's Assassination",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-06.jpg",
+      "id":7
+    },
+    {
+      "title":"His Name is (Still) Mud: The Case Against Dr. Samuel A. Mudd",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-07.jpg",
+      "id":8
+    },
+    {
+      "title":"Der : The Journal",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-08.jpg",
+      "id":9
+    },
+    {
+      "title":"Rationing During WII: Don't Waste It! Buy Wisely, Cook Carefully, Eat It All",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-09.jpg",
+      "id":10
+    },
+    {
+      "title":"Lincon's Legends: Myths, Hoaxes, and Confabulations Associated With Our Greatest President",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-10.jpg",
+      "id":11
+    },
+    {
+      "title":"Lincoln Slept Here: Kentucky and Indiana Years",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-11.jpg",
+      "id":12
+    },
+    {
+      "title":"Lincoln Slept Here: The Early Ancestors",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-12.jpg",
+      "id":13
+    },
+    {
+      "title":"From Port Hudson to Cedar Creek: The Civil War Letters of Charles Washington Kennedy",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-13.jpg",
+      "id":14
+    },
+    {
+      "title":"The Lincoln Tree: 300 Years of Lincoln Ancestry",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-14.jpg",
+      "id":15
+    },
+    {
+      "title":"Don't You Know There's A War On? Life on the Home Front During World War II",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-15.jpg",
+      "id":16
+    },
+    {
+      "title":"Forgotten History Lost To Time: Interesting Events in History",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-16.jpg",
+      "id":17
+    },
+    {
+      "title":"I'll Be Seeing You: Love and Intrigue in the Midst of War",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-17.jpg",
+      "id":18
+    },
+    {
+      "title":"The Quotable Lincon: A Selection From the Writings and Speeches of Abraham Lincoln",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-18.jpg",
+      "id":19
+    },
+    {
+      "title":"Lincoln Assassination Encyclopedia",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-19.jpg",
+      "id":20
+    },
+    {
+      "title":"Lincoln Slept Here: Illinois Years",
+      "body":"",
+      "author":"Ed Steers Jr.",
+      "format": "Kindle",
+      "cover": "id-20.jpg",
+      "id":21
     }
   ]
 }
