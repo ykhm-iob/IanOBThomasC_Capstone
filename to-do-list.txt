@@ -1,7 +1,5 @@
 Home:
 Margin for text
-Max width for images?
-Truncate recent release synopsis text
 
 Books:
 Back-end implementation. Loop to go through catalog.
@@ -26,3 +24,37 @@ Other:
 Clean up git repo
 Fix up read-me.md
 msg Tm+sm
+
+
+
+
+  function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+  }
+
+  const images = importAll(require.context('./Resources', false, /\.(png|jpe?g|svg)$/));
+
+
+<img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-00.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-01.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-02.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-03.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-04.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-05.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-06.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-07.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-08.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-09.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-10.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-11.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-12.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-13.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-14.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-15.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-16.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-17.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-18.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-19.jpg']} alt="Book Cover" />
+      <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={images['id-20.jpg']} alt="Book Cover" />
