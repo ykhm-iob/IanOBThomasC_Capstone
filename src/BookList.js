@@ -12,13 +12,13 @@ function importAll(r) {
 const images = importAll(require.context('./Resources', false, /\.(png|jpe?g|svg)$/));
 
   return ( 
-    <div className="grid grid-cols-3 gap-5 md:gap-10 md:gap-y-0
-    text-center">
-      <div>
+    <div className="">
+      <div className="grid grid-cols-3
+    grid-flow-row ">
         {books.map((books) => (
-          <div key={books.id}>
-            <Link to={`/books/${books.id}`}>
-            <img className="mx-auto" src={images[ books.cover ]} alt="Book Cover" />
+          <div className="" key={books.isbn}> {/* books.id === books.isbn */}
+            <Link to={`/books/${books.isbn}`}>
+            <img className="rounded-2xl min-w-20 w-2/6 mx-auto md:max-w-56 m-4 lg:max-w-64" src={ books.cover_img } alt="Book Cover" /> 
             </Link>
           </div>
         ))}

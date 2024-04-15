@@ -3,9 +3,14 @@ import BookList from "./BookList";
 
 const Books = () => {
   
-  const { data: book, error, isPending } = useFetch('http://localhost:8000/books/');
+  // const url = 'http://localhost:8000/books/';
+  const url = 'https://us-east-1.aws.data.mongodb-api.com/app/data-xpont/endpoint/book';
+
+  const { data: book, error, isPending } = useFetch(url);
   const totalBooks = book.length;
-  console.log();
+
+  console.log(book);
+  
   
   function importAll(r) {
     let images = {};
