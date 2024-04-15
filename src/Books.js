@@ -7,18 +7,10 @@ const Books = () => {
   const url = 'https://us-east-1.aws.data.mongodb-api.com/app/data-xpont/endpoint/book';
 
   const { data: book, error, isPending } = useFetch(url);
-  const totalBooks = book.length;
 
   console.log(book);
-  
-  
-  function importAll(r) {
-    let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
-    return images;
-  }
-
-  const images = importAll(require.context('./Resources', false, /\.(png|jpe?g|svg)$/));
+  console.log(error);
+  console.log(isPending);
 
 
   return ( 

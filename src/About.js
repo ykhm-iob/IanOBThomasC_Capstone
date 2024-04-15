@@ -9,7 +9,7 @@ const About = () => {
         <br /> become a biomedical researcher in collobration with a Nobel Prize winner, before retiring 
         <br /> as a history writer. It is here where Dr. Steers would release multiple books, and have 
         <br />multiple guest appearances on radio and TV shows...</p>
-        <button className="button"><Link to="/about/Biography">Biography Page</Link></button>
+        <Link to="/about/Biography"><button className="button">Biography Page</button></Link>
       </div>
       <div>
         <h2 className="text-titleColor text-3xl font-medium lg:text-5xl">Appearances</h2>
@@ -19,7 +19,7 @@ const About = () => {
           <li>Multiple interviews, including one on The Today Show.</li>
           <li>His book(s) discussed on CNN.</li>
         </ul>
-        <button className="button"><Link to="/about/Appearances">Appearances Page</Link></button>
+        <Link to="/about/Appearances"><button className="button">Appearances Page</button></Link>
       </div>
       <div>
         <h2 className="text-titleColor text-3xl font-medium lg:text-5xl">Contact Info</h2>

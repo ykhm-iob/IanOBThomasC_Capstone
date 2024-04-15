@@ -9,13 +9,13 @@
 }
 
 .book-cover {
-  @apply font-medium;
+  @apply font-medium; /* Not yet decided if @apply is necessary. */
 }
 
 .year-badge {
-  @apply font-medium;
+  @apply font-medium; /* Not yet decided if @apply is necessary. */
 }
 
 .about-text {
-  @apply font-medium;
+  @apply font-medium; /* Not yet decided if @apply is necessary. */
 }
