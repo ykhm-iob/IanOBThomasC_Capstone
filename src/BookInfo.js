@@ -5,7 +5,9 @@ import axios from "axios";
 
 const BookInfo = () => {
   const { id } = useParams();
-  const { data: book, error, isPending } = useFetch('https://us-east-1.aws.data.mongodb-api.com/app/data-xpont/endpoint/books?isbn=' + id);
+  const { data: book, error, isPending } = useFetch(
+    'https://us-east-1.aws.data.mongodb-api.com/app/data-xpont/endpoint/books?isbn=' 
+    + id);
 
   
   
