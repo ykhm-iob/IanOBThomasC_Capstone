@@ -12,6 +12,8 @@ Line spacing
 Font colors? possibly.
 Mobile navbar
 Animations (transitions)
+White opaque navbar.
+Updated tab name and webpage icon.
 
 
 Other:
