@@ -7,15 +7,7 @@ Sub-pages need more fluff...? Pull from Ed Steers site maybe. They aren't reachi
 
 
 All:
-Modal page(s)
 Line spacing
-Font colors? possibly.
 Mobile navbar
 Animations (transitions)
 White opaque navbar.
-Updated tab name and webpage icon.
-
-
-Other:
-Clean up git repo
-Fix up read-me.md
