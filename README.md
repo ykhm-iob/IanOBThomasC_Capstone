@@ -56,11 +56,13 @@ Past April 2024, this project is not being maintained as it is a capstone projec
 
 ## FAQ
 
+
 <ul>
   <li>The project won't start and I was incapable of reading the SETUP section, what do I do?</li>
 </ul>
 
 Make sure your node and npm version matches the project's listed in the SETUP section by running `node -v` and `npm -v` in your terminal. If it does, make sure you ran `npm install` in the root folder with the project.
+
 
 <ul>
   <li>The project won't start despite me doing what was put in the SETUP section, what do I do?</li>
@@ -68,17 +70,20 @@ Make sure your node and npm version matches the project's listed in the SETUP se
 
 Submit it as an issue [here.](https://github.com/ykhm-iob/IanOBThomasC_Capstone/issues) If you are a professor using this project and not someone who has stumbled upon the GitHub repo, please contact my student e-mail (IanOB).
 
+
 <ul>
   <li>I want to [use part or all of your web application in my project/ as a reference or template], can I do that?</li>
 </ul>
 
 Yes. You have my permission to use any part of the site you wish as it was created for educational purposes as a capstone project.
 
+
 <ul>
   <li>The books page is throwing an error despite me not editing the site. Why?</li>
 </ul>
 
 I'm not sure, but the database could be down depending on when you use this site. Please open an issue [here](https://github.com/ykhm-iob/IanOBThomasC_Capstone/issues) or reach out to me if you are a professor attempting to run this project at my student e-mail (IanOB).
+
 
 <ul>
   <li>I don't like [specific UI/programming decision], and I could do it better.</li>
@@ -89,4 +94,4 @@ I am very open to criticism in all regards, as this is my first time working on 
 
 ## License
 
-This project uses the MIT License. see the LICENSE file in the project for more information.
+This project uses the MIT License. See the LICENSE file in the project for more information.
