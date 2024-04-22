@@ -30,7 +30,8 @@ const BookInfo = () => {
       { book && (
         <article className="flex flex-col gap-10 text-center">
           <h2 className="text-titleColor text-3xl font-medium lg:text-5xl">Book Info</h2>
-          <h2 className="text-titleColor text-3xl font-medium lg:text-5xl">{ book.title }</h2>
+          <h2 className="text-titleColor text-sm max-w-sm text-3xl font-medium lg:text-5xl
+          sm:max-w-2xl sm:text-base md:max-w-2xl lg:text-lg lg:max-w-4xl">{ book.title }</h2>
           <img className="rounded-2xl w-2/6 min-w-36 mx-auto m-4 md:max-w-56 lg:max-w-64" src={ book.cover_img } alt="Book Cover" /> {/* {images[book.cover]} */}
           <p className="text-paragraphColor text-ellipsis text-sm max-w-sm px-10 
         sm:max-w-2xl sm:text-base md:max-w-2xl lg:text-lg lg:max-w-4xl mx-auto 

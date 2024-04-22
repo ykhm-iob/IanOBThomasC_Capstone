@@ -8,6 +8,4 @@ Sub-pages need more fluff...? Pull from Ed Steers site maybe. They aren't reachi
 
 All:
 Line spacing
-Mobile navbar
 Animations (transitions)
-White opaque navbar.
