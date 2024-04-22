@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     
-      <nav className="sticky top-0 p-5 bg-backdropColor bg-opacity-40 flex justify-between text-titleColor hover:bg-opacity-100">
+      <nav className="sticky top-0 p-5 flex justify-between text-titleColor">
         <div>
         <h1 className="uppercase">Ed Steers Jr.'s Site</h1>
         </div>
