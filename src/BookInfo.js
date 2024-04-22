@@ -33,7 +33,8 @@ const BookInfo = () => {
           <h2 className="text-titleColor text-3xl font-medium lg:text-5xl">{ book.title }</h2>
           <img className="rounded-2xl w-2/6 min-w-36 mx-auto m-4 md:max-w-56 lg:max-w-64" src={ book.cover_img } alt="Book Cover" /> {/* {images[book.cover]} */}
           <p className="text-paragraphColor text-ellipsis text-sm max-w-sm px-10 
-        sm:max-w-2xl sm:text-base md:max-w-2xl lg:text-lg lg:max-w-4xl mx-auto"><b>Synopsis:</b> {book.description }</p>
+        sm:max-w-2xl sm:text-base md:max-w-2xl lg:text-lg lg:max-w-4xl mx-auto 
+        line-clamp-5 md:line-clamp-none hover:line-clamp-none"><b>Synopsis:</b> {book.description }</p>
           <p className="text-paragraphColor text-ellipsis text-sm max-w-sm px-10 
         sm:max-w-2xl sm:text-base md:max-w-2xl lg:text-lg lg:max-w-4xl mx-auto"><b>Written By:</b> { book.author }</p>
           <a href={ book.url } target="_blank" rel="noreferrer"><button className="button">Amazon Page</button></a>
