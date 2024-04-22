@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .button {
-  @apply text-borderColor font-medium mt-7 rounded-md text-xl px-9 py-3 bg-buttonColor border-2 border-borderColor;
+  @apply text-borderColor mt-7 rounded-md px-9 py-3 bg-buttonColor border-2 border-borderColor text-sm font-bold md:text-xl md:font-medium;
 }
 
 .book-cover {
